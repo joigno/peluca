@@ -123,11 +123,10 @@ function App() {
         'supply': 'Sin Conexion',
         'nextSupplyTarget': 'Sin Conexion',
         'isDeflationary': 'Sin Conexion',
-        'connectedText': '<a href="https://metamask.io/download">INSTALAR METAMASK</a>',
+        'connectedText': 'INSTALAR BILLETERA METAMASK http://metamask.io',
         'dropDisabled': '',
       };
       setData(object);
-
     }
   }
 
