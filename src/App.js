@@ -187,8 +187,8 @@ function App() {
       </p>
       <br/>
       <br/>
-      <a href="https://bscscan.com/address/0x353395eb36e03fe72dce4ee77558688969283f91#code">✅ Token Verificado en BscScan</a><br/>
-      <a href="https://bscscan.com/address/0x353395eb36e03fe72dce4ee77558688969283f91#code"><img src="https://bscscan.com/images/logo-bscscan.svg?v=0.0.3" width="13%" height="10%" alt="Logo" /></a>
+      <a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91">✅ Token Verificado en BscScan</a><br/>
+      <a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91"><img src="https://bscscan.com/images/logo-bscscan.svg?v=0.0.3" width="13%" height="10%" alt="Logo" /></a>
       <br/>
       <br/>
       <a href="#">📈 Tradear en PancakeSwap (INACTIVO)</a>
@@ -242,7 +242,7 @@ function App() {
      precio continuará flotando libremente, ahora con mayor libertad sin depender del precio de los drops/regalos.</p>
      <p style={{ fontSize: "100%", fontWeight: 'bold', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem'   }}>¿Como puedo ver las transacciones de $PELUCA?</p>
      <p style={{ fontSize: "100%", fontWeight: 'normal', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem' }}>Las transacciones se pueden ver en
-     el <a href="https://bscscan.com/address/0x353395eb36e03fe72dce4ee77558688969283f91">explorador BscScan</a> con la dirección del token (<a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91">0x0</a>). </p>
+     el <a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91">explorador BscScan</a> con la dirección del token (<a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91">0x0</a>). </p>
      <p style={{ fontSize: "100%", fontWeight: 'bold', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem'   }}>¿Cual es el código fuente de $PELUCA?</p>
      <p style={{ fontSize: "100%", fontWeight: 'normal', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem' }}>El código de fuente de Peluca es
      código abierto (open source), encuentra en Github y fue desarrollado usando el entorno Hardhat/ReactJS donde contiene 20 tests para evaluar el funcionamiento
