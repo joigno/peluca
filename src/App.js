@@ -117,6 +117,17 @@ function App() {
         };
         setData(object);
       }
+    } else {
+      const object = {
+        'balance': 'Sin Conexion',
+        'supply': 'Sin Conexion',
+        'nextSupplyTarget': 'Sin Conexion',
+        'isDeflationary': 'Sin Conexion',
+        'connectedText': '<a href="https://metamask.io/download">INSTALAR METAMASK</a>',
+        'dropDisabled': '',
+      };
+      setData(object);
+
     }
   }
 
