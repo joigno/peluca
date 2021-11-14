@@ -91,7 +91,6 @@ function App() {
         } else {
           supply = supply.div(ethers.utils.parseUnits("1000000000000000000"));
         }
-        console.log(String(supply));
         const object = {
           'balance': String(balance/(10**18)) + ' PELUCA',
           'supply': String(supply),
