@@ -39,7 +39,12 @@ function App() {
   }, [])
 
   async function requestAccount() {
-    return await window.ethereum.request({method: 'eth_requestAccounts'});
+    if (typeof window.ethereum === 'undefined') {
+      alert("Install MetaMask wallet plugin: https://metamask.io/download");
+    } else
+    {
+      return await window.ethereum.request({method: 'eth_requestAccounts'});
+    }
   }
 
   async function switchToBinance() {
