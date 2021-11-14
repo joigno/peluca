@@ -66,6 +66,7 @@ function App() {
     if (tx) {
         console.log(tx)
     }
+    fetchData();
   }
 
   // https://docs.metamask.io/guide/rpc-api.html#usage-with-wallet-switchethereumchain
