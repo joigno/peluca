@@ -179,10 +179,10 @@ function App() {
       <p style={{ fontSize: "150%" }}>Emisi&#243;n Actual: {data.supply} PELUCA</p>  
       <p style={{ fontSize: "150%" }}>Próximo Objetivo Emisi&#243;n: {data.nextSupplyTarget} PELUCA</p>  
       <p className="Drop">
-          <button onClick={mint} >Reclamar Drop</button>&nbsp;{data.dropDisabled}
+          <button onClick={mint} >Reclamar Tus PELUCA</button>&nbsp;{data.dropDisabled}
           <br/>
           <br/>
-          <button onClick={transferAmigo}>Enviar Drop a Amigo</button>
+          <button onClick={transferAmigo}>Enviar PELUCA a Amigo</button>
           <input onChange={e => setAmigoAddress(e.target.value)} type="text" id="amigo" name="amigo" placeholder="Dirección BSC"></input>&nbsp;{data.dropDisabled}
       </p>
       <br/>
