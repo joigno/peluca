@@ -168,7 +168,7 @@ function App() {
   return (
     <div className="App" style={{ backgroundColor: "#74aedf", fontFamily: 'Lucida Grande, Helvetica, Arial, sans-serif' }}>
       <br/>
-      <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>Chequear Sitio: <strong>peluca.finance</strong>&nbsp;&nbsp;</p>
+      <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>Este sitio debe ser: <strong>peluca.finance</strong>&nbsp;&nbsp;</p>
       <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>{data.balance} <button onClick={switchToBinance}>{data.connectedText}</button>&nbsp;&nbsp;</p>
       <p style={{ fontSize: "250%", fontWeight: 'bold' }}>$PELUCA</p>
       <p style={{ fontSize: "200%" }}>La gran criptomoneda liberal y popular</p>
