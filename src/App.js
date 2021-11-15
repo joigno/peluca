@@ -242,10 +242,9 @@ function App() {
      ERC20.</p>
      <p style={{ fontSize: "100%", fontWeight: 'bold', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem'   }}>¿Como puedo ver el precio de $PELUCA?</p>
      <p style={{ fontSize: "100%", fontWeight: 'normal', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem' }}>Se crearon pooles de
-     trading/swap en <a href="https://pancakeswap.finance/swap">PancakeSwap</a> y <a href="https://pancakeswap.finance/swap">ApeSwap</a> para comprar y vender PELUCA, esto dará un precio al token. En estas aplicaciones
+     trading/swap en <a href="https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">PancakeSwap</a> y <a href="https://app.apeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">ApeSwap</a> para comprar y vender PELUCA, esto dará un precio al token. En estas aplicaciones
      tambien se podra depositar liquidez en PELUCA para cobrar comisiones de trading (
-       <a href="https://pancakeswap.finance/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x0COMPLETAR">liquidez en PancakeSwap</a>, <a href="https://app.apeswap.finance/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x0COMPLETAR
-     ">liquidez en ApeSwap</a> 
+       <a href="https://pancakeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">liquidez en PancakeSwap</a>, <a href="https://app.apeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">liquidez en ApeSwap</a> 
      ). Inicialmente el precio será cercano
      a 0.01 USD por PELUCA dependiendo de los gas fees de la red BSC, pero es más conveniente participar de los Drops que comprar durante
      el periodo inflacionario. Luego de alcanzados 10,000,000 PELUCA comenzará el Periodo Deflacionario y el
