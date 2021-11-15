@@ -26,6 +26,8 @@ const pelucaAddress = '0x353395eB36E03Fe72Dce4EE77558688969283F91';
 // Deploy to Github Pages
 // npm run deploy
 
+// https://github.com/joigno/peluca/settings/pages
+
 
 
 
@@ -191,13 +193,21 @@ function App() {
       <a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91"><img src="https://bscscan.com/images/logo-bscscan.svg?v=0.0.3" width="13%" height="10%" alt="Logo" /></a>
       <br/>
       <br/>
-      <a href="#">📈 Tradear en PancakeSwap (INACTIVO)</a>
+      <a href="https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">📈 Tradear en PancakeSwap</a><br/>
+      <a href="https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">
+        <img src="https://www.pngall.com/wp-content/uploads/10/PancakeSwap-Crypto-Logo-PNG-File.png" width="13%" height="10%" alt="Logo" /></a>
       <br/>
-      <a href="#">📈 Tradear en ApeSwap (INACTIVO)</a>
+      <a href="https://app.apeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">📈 Tradear en ApeSwap</a><br/>
+      <a href="https://app.apeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">
+        <img src="https://info.apeswap.finance/static/media/logo-header.a4e1e832.svg" width="13%" height="10%" alt="Logo" /></a>
       <br/>
-      <a href="#">💰 Dar Liquidez en PancakeSwap (INACTIVO)</a>
+      <a href="https://pancakeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">💰 Dar Liquidez en PancakeSwap</a><br/>
+      <a href="https://pancakeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">
+        <img src="https://www.pngall.com/wp-content/uploads/10/PancakeSwap-Crypto-Logo-PNG-File.png" width="13%" height="10%" alt="Logo" /></a>
       <br/>
-      <a href="#">💰 Dar Liquidez en ApeSwap (INACTIVO)</a>
+      <a href="https://app.apeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">💰 Dar Liquidez en ApeSwap</a><br/>
+      <a href="https://app.apeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">
+        <img src="https://info.apeswap.finance/static/media/logo-header.a4e1e832.svg" width="13%" height="10%" alt="Logo" /></a>
       <br/>
       <br/>
       <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
