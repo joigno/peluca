@@ -1,6 +1,6 @@
 # $PELUCA Token (ERC20)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is a Hardhat project. It comes with a ERC20 Token contract, tests for that contract and script that deploys that contract.
 
 Try running some of the following tasks:
 
