@@ -221,6 +221,9 @@ function App() {
       <p style={{ fontSize: "150%" }}>Deflaci&#243;n (max 4% anual): {data.isDeflationary}</p>  
       <p style={{ fontSize: "150%" }}>Circulante: {data.supply} PELUCA</p>  
       <p style={{ fontSize: "150%" }}>Circulante Máximo: {data.nextSupplyTarget} PELUCA</p>  
+
+      <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
+
       <p className="Drop">
           <button onClick={mint} >RECLAMAR AIRDROP BÁSICO</button>&nbsp;6 PELUCA&nbsp;{data.dropDisabled}
           <br/>
@@ -237,7 +240,9 @@ function App() {
           <button onClick={transferAmigo}>ENVIAR AIRDROP MABEL</button>&nbsp;
           <input onChange={e => setAmigoAddress(e.target.value)} type="text" id="amigo" name="amigo" placeholder="Dirección BSC"></input>&nbsp;12 PELUCA&nbsp;{data.dropDisabled}
       </p>
-      <br/>
+
+      <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
+
       <br/>
       <a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91">✅ Token Verificado en BscScan</a><br/>
       <a href="https://bscscan.com/token/0x353395eB36E03Fe72Dce4EE77558688969283F91"><img src="https://bscscan.com/images/logo-bscscan.svg?v=0.0.3" width="13%" height="10%" alt="Logo" /></a>
@@ -257,7 +262,6 @@ function App() {
       <br/>
       <br/>
       <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
-      <br/>
       <br/>
       <p style={{ fontSize: "150%", fontWeight: 'bold', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem' }}>Preguntas:</p>
      <p style={{ fontSize: "100%", fontWeight: 'bold', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem'   }}>¿Cual es la emisón máxima de la criptomoneda $PELUCA?</p>
