@@ -174,17 +174,17 @@ function App() {
       <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>Este sitio debe ser: <strong>peluca.finance</strong>&nbsp;&nbsp;</p>
       <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>{data.balance} <button onClick={switchToBinance}>{data.connectedText}</button>&nbsp;&nbsp;</p>
       <p style={{ fontSize: "250%", fontWeight: 'bold' }}>$PELUCA</p>
-      <p style={{ fontSize: "200%" }}>La gran criptomoneda liberal y popular</p>
+      <p style={{ fontSize: "200%" }}>La gran criptomoneda libertaria, militante y popular</p>
       <img src={logo} width="13%" height="10%" alt="Logo" />
       <p style={{ fontSize: "150%" }}>Tu Balance: {data.balance}</p>  
       <p style={{ fontSize: "150%" }}>Deflaci&#243;n (max 4% anual): {data.isDeflationary}</p>  
-      <p style={{ fontSize: "150%" }}>Emisi&#243;n Actual: {data.supply} PELUCA</p>  
-      <p style={{ fontSize: "150%" }}>Próximo Objetivo Emisi&#243;n: {data.nextSupplyTarget} PELUCA</p>  
+      <p style={{ fontSize: "150%" }}>Circulante: {data.supply} PELUCA</p>  
+      <p style={{ fontSize: "150%" }}>Circulante Máximo: {data.nextSupplyTarget} PELUCA</p>  
       <p className="Drop">
-          <button onClick={mint} >Reclama Tus PELUCA</button>&nbsp;{data.dropDisabled}
+          <button onClick={mint} >RECLAMAR AIRDROP</button>&nbsp;{data.dropDisabled}
           <br/>
           <br/>
-          <button onClick={transferAmigo}>Envia PELUCA A Amigo</button>
+          <button onClick={transferAmigo}>ENVIAR AIRDROP</button>
           <input onChange={e => setAmigoAddress(e.target.value)} type="text" id="amigo" name="amigo" placeholder="Dirección BSC"></input>&nbsp;{data.dropDisabled}
       </p>
       <br/>
@@ -197,17 +197,13 @@ function App() {
       <a href="https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">
         <img src="https://www.pngall.com/wp-content/uploads/10/PancakeSwap-Crypto-Logo-PNG-File.png" width="13%" height="10%" alt="Logo" /></a>
       <br/>
-      <a href="https://app.apeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">📈 Tradear en ApeSwap</a><br/>
-      <a href="https://app.apeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x353395eB36E03Fe72Dce4EE77558688969283F91">
-        <img src="https://info.apeswap.finance/static/media/logo-header.a4e1e832.svg" width="13%" height="10%" alt="Logo" /></a>
+      <a href="https://charts.bogged.finance/0x353395eB36E03Fe72Dce4EE77558688969283F91">📈 Tradear y Charts en Bogged Finance</a><br/>
+      <a href="https://charts.bogged.finance/0x353395eB36E03Fe72Dce4EE77558688969283F91">
+        <img src="https://i.postimg.cc/CxRrCpyn/imageedit-9-6884491972.png" width="13%" height="10%" alt="Logo" /></a>
       <br/>
       <a href="https://pancakeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">💰 Dar Liquidez en PancakeSwap</a><br/>
       <a href="https://pancakeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">
         <img src="https://www.pngall.com/wp-content/uploads/10/PancakeSwap-Crypto-Logo-PNG-File.png" width="13%" height="10%" alt="Logo" /></a>
-      <br/>
-      <a href="https://app.apeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">💰 Dar Liquidez en ApeSwap</a><br/>
-      <a href="https://app.apeswap.finance/add/0x353395eB36E03Fe72Dce4EE77558688969283F91/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56">
-        <img src="https://info.apeswap.finance/static/media/logo-header.a4e1e832.svg" width="13%" height="10%" alt="Logo" /></a>
       <br/>
       <br/>
       <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
@@ -267,7 +263,7 @@ function App() {
     <p style={{ fontSize: "100%", fontWeight: 'normal', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem' }}>
     <a href="https://metamask.io/download.html">MetaMask</a> es una billetera cripto que funciona como plugin del navegador Chrome (o compatibles como Brave) o en Teléfonos Móviles. El MetaMask se puede <a href="https://metamask.io/download.html">Instalar Aquí</a>. El
     token PELUCA se puede incluir, para ver tu balance, en tu billetera MetaMask eligiendo la opción "Import Token" y metiendo la dirección del token PELUCA, que es
-    0x0COMPLETAR. Aunque no hayas importado el token en MetaMask igual puedes recibir PELUCA en tu dirección propia.    
+    0x353395eB36E03Fe72Dce4EE77558688969283F91. Aunque no hayas importado el token en MetaMask igual puedes recibir PELUCA en tu dirección propia.    
     </p>
       <br/>
 
