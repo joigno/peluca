@@ -225,6 +225,9 @@ function App() {
       <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
 
       <p className="Drop">
+          Los Airdrops son proporcionales en Gas, más PELUCA cuesta más Gas Fees.
+          <br/>
+          <br/>
           <button onClick={mint} >RECLAMAR AIRDROP BÁSICO</button>&nbsp;6 PELUCA&nbsp;{data.dropDisabled}
           <br/>
           <br/>
