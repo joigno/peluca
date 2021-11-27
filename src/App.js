@@ -3,8 +3,10 @@ import { ethers } from 'ethers';
 import './App.css';
 import logo from './logo.png';
 import Peluca from './artifacts/contracts/Peluca.sol/Peluca.json';
+import PelucaDropper from './artifacts/contracts/PelucaDropper.sol/PelucaDropper.json';
 
 const pelucaAddress = '0x353395eB36E03Fe72Dce4EE77558688969283F91';
+const pelucaDropperAddress = '0x8C449A97Cb028840158F9D6C0FEa10Ac8E6E9cb3';
 
 // npx hardhat compile
 // npx hardhat node // en otra consola
@@ -146,6 +148,45 @@ function App() {
     }
   }
 
+  async function mint120() {
+    if(typeof window.ethereum !== 'undefined') {
+      await requestAccount();
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+      const contract = new ethers.Contract(pelucaDropperAddress, PelucaDropper.abi, signer);
+      const transaction = await contract.mintMany(ethers.utils.parseUnits("120"));
+      setData({});
+      await transaction.wait();
+      fetchData();
+    }
+  }
+
+  async function mint1200() {
+    if(typeof window.ethereum !== 'undefined') {
+      await requestAccount();
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+      const contract = new ethers.Contract(pelucaDropperAddress, PelucaDropper.abi, signer);
+      const transaction = await contract.mintMany(ethers.utils.parseUnits("1200"));
+      setData({});
+      await transaction.wait();
+      fetchData();
+    }
+  }
+
+  async function mint12000() {
+    if(typeof window.ethereum !== 'undefined') {
+      await requestAccount();
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+      const contract = new ethers.Contract(pelucaDropperAddress, PelucaDropper.abi, signer);
+      const transaction = await contract.mintMany(ethers.utils.parseUnits("12000"));
+      setData({});
+      await transaction.wait();
+      fetchData();
+    }
+  }
+
   async function transferAmigo() {
     if(typeof window.ethereum !== 'undefined') {
       await requestAccount();
@@ -181,11 +222,20 @@ function App() {
       <p style={{ fontSize: "150%" }}>Circulante: {data.supply} PELUCA</p>  
       <p style={{ fontSize: "150%" }}>Circulante Máximo: {data.nextSupplyTarget} PELUCA</p>  
       <p className="Drop">
-          <button onClick={mint} >RECLAMAR AIRDROP</button>&nbsp;{data.dropDisabled}
+          <button onClick={mint} >RECLAMAR AIRDROP BÁSICO</button>&nbsp;6 PELUCA&nbsp;{data.dropDisabled}
           <br/>
           <br/>
-          <button onClick={transferAmigo}>ENVIAR AIRDROP</button>
-          <input onChange={e => setAmigoAddress(e.target.value)} type="text" id="amigo" name="amigo" placeholder="Dirección BSC"></input>&nbsp;{data.dropDisabled}
+          <button onClick={mint120} >RECLAMAR AIRDROP MILITANTE</button>&nbsp;120 PELUCA&nbsp;{data.dropDisabled}
+          <br/>
+          <br/>
+          <button onClick={mint1200} >RECLAMAR AIRDROP BASADO</button>&nbsp;1200 PELUCA&nbsp;{data.dropDisabled}
+          <br/>
+          <br/>
+          <button onClick={mint12000} >RECLAMAR AIRDROP KAIOSAMA</button>&nbsp;12000 PELUCA&nbsp;{data.dropDisabled}
+          <br/>
+          <br/>
+          <button onClick={transferAmigo}>ENVIAR AIRDROP MABEL</button>&nbsp;
+          <input onChange={e => setAmigoAddress(e.target.value)} type="text" id="amigo" name="amigo" placeholder="Dirección BSC"></input>&nbsp;12 PELUCA&nbsp;{data.dropDisabled}
       </p>
       <br/>
       <br/>
