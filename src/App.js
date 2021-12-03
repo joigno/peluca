@@ -216,6 +216,7 @@ function App() {
       <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>{data.balance} <button onClick={switchToBinance}>{data.connectedText}</button>&nbsp;&nbsp;</p>
       <p style={{ fontSize: "250%", fontWeight: 'bold' }}>$PELUCA</p>
       <p style={{ fontSize: "200%" }}>La gran criptomoneda libertaria, militante y popular</p>
+      <p style={{ fontSize: "100%" }}>(Crypto-Token No Oficial de Javier Milei)</p>
       <img src={logo} width="13%" height="10%" alt="Logo" />
       <p style={{ fontSize: "150%" }}>Tu Balance: {data.balance}</p>  
       <p style={{ fontSize: "150%" }}>Deflaci&#243;n (max 4% anual): {data.isDeflationary}</p>  
