@@ -213,8 +213,20 @@ function App() {
     <div className="App" style={{ backgroundColor: "#74aedf", fontFamily: 'Lucida Grande, Helvetica, Arial, sans-serif' }}>
       <br/>
       <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>Este sitio debe ser: <strong>peluca.finance</strong>&nbsp;&nbsp;</p>
-      <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>{data.balance} <button onClick={switchToBinance}>{data.connectedText}</button>&nbsp;&nbsp;</p>
-      <p style={{ fontSize: "250%", fontWeight: 'bold' }}>$PELUCA</p>
+      <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>{data.balance} <button onClick={switchToBinance}>{data.connectedText}</button>&nbsp;
+      
+      <a href="https://peluca-finance.translate.goog/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es">
+        <img src="https://www.worldometers.info/img/flags/small/tn_us-flag.gif" width="30px%" height="20x" alt="Logo" /></a>
+        &nbsp;
+        <a href="https://peluca-finance.translate.goog/?_x_tr_sl=es&_x_tr_tl=fr&_x_tr_hl=es">
+        <img src="https://www.worldometers.info/img/flags/small/tn_fr-flag.gif" width="30px%" height="20x" alt="Logo" /></a>
+        &nbsp;
+        <a href="https://peluca-finance.translate.goog/?_x_tr_sl=es&_x_tr_tl=pt&_x_tr_hl=es">
+        <img src="https://www.worldometers.info/img/flags/small/tn_br-flag.gif" width="30px%" height="20x" alt="Logo" /></a>
+      
+      &nbsp;</p>
+      <p style={{ fontSize: "250%", fontWeight: 'bold' }}>$PELUCA
+      </p>
       <p style={{ fontSize: "200%" }}>La gran criptomoneda libertaria, militante y popular</p>
       <p style={{ fontSize: "100%" }}>(Crypto-Token No Oficial de Javier Milei)</p>
       <img src={logo} width="13%" height="10%" alt="Logo" />
@@ -226,7 +238,7 @@ function App() {
       <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
 
       <p className="Drop">
-          Los Airdrops son proporcionales en Gas, más PELUCA cuesta más en Gas Fees.
+          AVISO: Los Airdrops son proporcionales en Gas, más PELUCA cuesta más en Gas Fees.
           <br/>
           <br/>
           <button onClick={mint} >RECLAMAR AIRDROP BÁSICO</button>&nbsp;6 PELUCA&nbsp;{data.dropDisabled}
@@ -266,7 +278,14 @@ function App() {
       <br/>
       <br/>
       <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
+
+      <iframe src="https://app.bogged.finance/swap?tokenIn=0xe9e7cea3dedca5984780bafc599bd69add087d56&tokenOut=0x353395eB36E03Fe72Dce4EE77558688969283F91&embed=1&slippage=4" height="850px" width="30%" ></iframe>
       <br/>
+      <br/>
+
+      <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
+      <br/>
+
       <p style={{ fontSize: "150%", fontWeight: 'bold', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem' }}>Preguntas:</p>
      <p style={{ fontSize: "100%", fontWeight: 'bold', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem'   }}>¿Cual es la emisón máxima de la criptomoneda $PELUCA?</p>
      <p style={{ fontSize: "100%", fontWeight: 'normal', textAlign:'left', flex:1, marginLeft: '2rem', marginRigh: '2rem' }}>
