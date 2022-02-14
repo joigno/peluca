@@ -5,11 +5,8 @@ This project is a Hardhat project. It comes with a ERC20 Token contract, tests f
 Try running some of the following tasks:
 
 ```shell
-npx hardhat accounts
+npm install
 npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npx hardhat node // in another console
+npx hardhat run scripts/deploy.js --network localhost
 ```
