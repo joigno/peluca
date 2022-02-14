@@ -211,6 +211,8 @@ function App() {
   // Lucida Grande, Helvetica, Arial, sans-serif
   return (
     <div className="App" style={{ backgroundColor: "#74aedf", fontFamily: 'Lucida Grande, Helvetica, Arial, sans-serif' }}>
+      <meta property="og:title" content="leon libertario libertarios liberales peluca javier milei cryptos criptomonedas cryptocurrency token erc20 bsc nft argentina buenosaires caba coin criptos" />
+      <meta name="description" content="leon libertario libertarios liberales peluca javier milei cryptos criptomonedas cryptocurrency token erc20 bsc nft argentina buenosaires caba coin criptos"></meta>
       <br/>
       <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>Este sitio debe ser: <strong>peluca.finance</strong>&nbsp;&nbsp;</p>
       <p style={{ fontSize: "100%", textAlign:'right', flex:1 }}>{data.balance} <button onClick={switchToBinance}>{data.connectedText}</button>&nbsp;
