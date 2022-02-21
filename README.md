@@ -10,5 +10,5 @@ Try running some of the following tasks:
 2) npx hardhat compile
 3) npx hardhat node # in another console
 Peluca deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
-4) Inser deployment address in pelucaAddress or src/App.js
+4) Insert deployment address in pelucaAddress or src/App.js
 5) npm start```
