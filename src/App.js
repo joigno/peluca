@@ -230,7 +230,6 @@ function App() {
       <p style={{ fontSize: "250%", fontWeight: 'bold' }}>$PELUCA
       </p>
       <p style={{ fontSize: "200%" }}>La gran criptomoneda libertaria, militante y popular</p>
-      <p style={{ fontSize: "100%" }}>(Crypto-Token No Oficial)</p>
       <img src={logo} width="13%" height="10%" alt="Logo" />
       <p style={{ fontSize: "150%" }}>Tu Balance: {data.balance}</p>  
       <p style={{ fontSize: "150%" }}>Deflaci&#243;n (max 4% anual): {data.isDeflationary}</p>  
