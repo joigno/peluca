@@ -383,7 +383,7 @@ function App() {
   Limite (Cap) de Emisión de 10 millones de PELUCA (10,000,000 PELUCA) empieza el Periodo Deflacionario permanente, donde cada año se queman un máximo de
   4% de la masa monetaria. Es decir se destruyen a lo sumo cada anio 4 de cada 100 PELUCA por año cuando termina el Periodo Inflacionario
   y comienza el Periodo Deflacionario, que dura para siempre.
-  Durante el Periodo Deflacionario permanente se queman en cada transferencia una bajísima emisión de 0.1% de los PELUCA involucrados en transferencias "transfer()" del este Token
+  Durante el Periodo Deflacionario permanente se queman en cada transferencia una bajísima fracción de 0.1% de los PELUCA involucrados en transferencias "transfer()" del este Token
   ERC20
        </Typography>
        
