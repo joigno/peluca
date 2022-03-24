@@ -242,11 +242,6 @@ function App() {
   return (
     <div className="App" style={{ backgroundColor: "#74aedf", fontFamily: 'Lucida Grande, Helvetica, Arial, sans-serif' }}>
 
-    <Helmet>
-        <script src="https://www.googletagmanager.com/gtag/js?id=G-8T5RQCVPDD"></script>
-        <script>try{Typekit.load({ async: true })};catch(e){}</script>
-    </Helmet>
-
     <Box sx={{ flexGrow: 1 }}>
      <AppBar position="static">
        <Toolbar>
