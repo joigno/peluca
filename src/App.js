@@ -24,8 +24,10 @@ import Avatar from '@mui/material/Avatar';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Card from '@mui/material/Card';
+import ReactGA from 'react-ga';
 const pelucaAddress = '0x353395eB36E03Fe72Dce4EE77558688969283F91';
 const pelucaDropperAddress = '0x8C449A97Cb028840158F9D6C0FEa10Ac8E6E9cb3';
+ReactGA.initialize('G-8T5RQCVPDD')
 
 // npx hardhat compile
 // npx hardhat node // en otra consola
@@ -62,6 +64,7 @@ const bull = (
 function App() {
   const [ data, setData] = useState({});
   var addressAmigo = '0x0';
+  ReactGA.pageview(window.location.pathname);
 
   useEffect(() => {
     document.title = "$PELUCA"
@@ -237,17 +240,7 @@ function App() {
   // Lucida Grande, Helvetica, Arial, sans-serif
   return (
     <div className="App" style={{ backgroundColor: "#74aedf", fontFamily: 'Lucida Grande, Helvetica, Arial, sans-serif' }}>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8T5RQCVPDD"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8T5RQCVPDD');
-    </script>
-    
+        
     <Box sx={{ flexGrow: 1 }}>
      <AppBar position="static">
        <Toolbar>
