@@ -24,10 +24,10 @@ import Avatar from '@mui/material/Avatar';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Card from '@mui/material/Card';
+// https://medium.com/geekculture/how-to-use-google-analytics-on-reactjs-in-5-minutes-7f6b43017ba9
 import ReactGA from 'react-ga';
 const pelucaAddress = '0x353395eB36E03Fe72Dce4EE77558688969283F91';
 const pelucaDropperAddress = '0x8C449A97Cb028840158F9D6C0FEa10Ac8E6E9cb3';
-ReactGA.initialize('G-8T5RQCVPDD')
 
 // npx hardhat compile
 // npx hardhat node // en otra consola
@@ -64,6 +64,7 @@ const bull = (
 function App() {
   const [ data, setData] = useState({});
   var addressAmigo = '0x0';
+  ReactGA.initialize('G-8T5RQCVPDD')
   ReactGA.pageview(window.location.pathname);
 
   useEffect(() => {
@@ -240,7 +241,12 @@ function App() {
   // Lucida Grande, Helvetica, Arial, sans-serif
   return (
     <div className="App" style={{ backgroundColor: "#74aedf", fontFamily: 'Lucida Grande, Helvetica, Arial, sans-serif' }}>
-        
+
+    <Helmet>
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-8T5RQCVPDD"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    </Helmet>
+
     <Box sx={{ flexGrow: 1 }}>
      <AppBar position="static">
        <Toolbar>
