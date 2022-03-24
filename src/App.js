@@ -244,7 +244,7 @@ function App() {
 
     <Helmet>
         <script src="https://www.googletagmanager.com/gtag/js?id=G-8T5RQCVPDD"></script>
-        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <script>try{Typekit.load({ async: true })};catch(e){}</script>
     </Helmet>
 
     <Box sx={{ flexGrow: 1 }}>
