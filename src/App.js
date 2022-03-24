@@ -237,6 +237,17 @@ function App() {
   // Lucida Grande, Helvetica, Arial, sans-serif
   return (
     <div className="App" style={{ backgroundColor: "#74aedf", fontFamily: 'Lucida Grande, Helvetica, Arial, sans-serif' }}>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8T5RQCVPDD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8T5RQCVPDD');
+    </script>
+    
     <Box sx={{ flexGrow: 1 }}>
      <AppBar position="static">
        <Toolbar>
