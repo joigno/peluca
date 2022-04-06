@@ -1,4 +1,4 @@
-# $PELUCA Token (ERC20)
+# $PELUCA Token (ERC20) - Example Deflationary Token
 
 This project is a Hardhat project. It comes with a ERC20 Token contract, tests for that contract and script that deploys that contract.
 
